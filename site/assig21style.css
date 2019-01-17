@@ -14,7 +14,6 @@
     font-size:1.5em;
     text-transform:uppercase;
     font-weight: bold;
-    
     margin-top:0;
     margin-bottom: 0;
     line-height:.75;
@@ -33,14 +32,14 @@
 }
 
 #main-content{
-    margin-top:80px;
+    margin-top:25px;
     width:98%;
     margin-left:15px;
 }
 
 .item-description{
  background-color:gray;
-    margin-top:50px;
+    margin-top:25px;
     margin-bottom:20px;
     position: relative;
 }   
