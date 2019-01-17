@@ -1,0 +1,109 @@
+#header-nav{
+    background-color:gray;
+    border-radius:0;
+    border:1px solid  black;
+    
+}
+  .navbar-brand{
+    padding-top:25px;
+    margin-bottom:25px;
+}
+.navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color:black;
+    font-size:1.5em;
+    text-transform:uppercase;
+    font-weight: bold;
+    
+    margin-top:0;
+    margin-bottom: 0;
+    line-height:.75;
+}
+
+.navbar-brand a:hover,.navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+    
+    border:1px solid gray;
+}
+.navbar-header  button.navbar-toggle{
+    clear:both;
+    
+}
+
+#main-content{
+    margin-top:80px;
+    width:98%;
+    margin-left:15px;
+}
+
+.item-description{
+ background-color:gray;
+    margin-top:50px;
+    margin-bottom:20px;
+    position: relative;
+}   
+    
+.item-description span{
+    float:right;
+    top:0;
+    right:0;
+    width:100%;
+    text-align:center;
+    font-size:1.8em;
+    text-transform: uppercase;
+    color:black;
+}
+.item-description p{
+    clear:right;
+    width:100%;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+/*******end of home page***/
+
+/*******end of home page***/
+
+/***media query for small devices***/
+@media (max-width:767px){
+    
+    #main-content{
+         margin-top:25px;
+     }
+ /*    .navbar-fixed-top {
+         position: relative;
+         top: auto;
+     }
+     .navbar-collapse {
+         max-height: none;
+     } */
+ 
+     #collapsable-nav{
+         margin-top:20px;
+         height:50%;
+     }
+     
+     #nav-list a{
+         color:black;
+         text-align:center;
+         background-color:grey;
+         border:solid 1px black; 
+         width:100%;
+         
+     }
+     #nav-list a:hover{
+      background:#E7E7E7; 
+      border:solid 2px black;  
+     }
+ 
+     
+     #collapsable-nav a {
+         font-size:1.2em;
+         margin-right: 15px;
+         
+     }
+     
+  
+  }
