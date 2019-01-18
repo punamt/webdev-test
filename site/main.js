@@ -7,8 +7,7 @@
           byeSpeaker.speak(names[i]);
         }
       else{
-          console.log("hhhhhh");
-           helloSpeaker.speak(names[i]);
+          helloSpeaker.speak(names[i]);
       }   
     }
 
